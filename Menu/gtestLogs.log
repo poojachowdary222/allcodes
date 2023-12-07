@@ -1,0 +1,51 @@
+2023-11-22 06:54:16.991  WARN 19676 --- [HikariPool-5 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=7h46m18s252ms167µs200ns).
+2023-11-22 07:09:12.044  INFO 19676 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-11-22 07:09:12.408  INFO 19676 --- [Thread-22] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-22 07:09:12.438  INFO 19676 --- [Thread-22] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-22 07:09:12.444  INFO 19676 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-11-22 07:09:12.548  INFO 19676 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-11-22 07:09:13.255  INFO 19676 --- [restartedMain] com.fdapractice.menu.MenuApplication     : Starting MenuApplication using Java 17.0.7 on LIN20002650 with PID 19676 (C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Menu\target\classes started by pt2 in C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Menu)
+2023-11-22 07:09:13.256  INFO 19676 --- [restartedMain] com.fdapractice.menu.MenuApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-11-22 07:09:14.576  INFO 19676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-22 07:09:14.666  INFO 19676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interfaces.
+2023-11-22 07:09:15.334  INFO 19676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2023-11-22 07:09:15.337  INFO 19676 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-22 07:09:15.338  INFO 19676 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-22 07:09:15.452  INFO 19676 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-11-22 07:09:15.453  INFO 19676 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2188 ms
+2023-11-22 07:09:15.552  INFO 19676 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-22 07:09:15.574  INFO 19676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-11-22 07:09:16.030  INFO 19676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-11-22 07:09:16.032  INFO 19676 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-22 07:09:16.224  INFO 19676 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-22 07:09:16.226  INFO 19676 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-22 07:09:16.831  WARN 19676 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-22 07:09:17.545  INFO 19676 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-22 07:09:17.677  INFO 19676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2023-11-22 07:09:17.685  INFO 19676 --- [restartedMain] com.fdapractice.menu.MenuApplication     : Started MenuApplication in 4.817 seconds (JVM running for 34803.387)
+2023-11-22 07:09:17.688  INFO 19676 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-22 07:11:53.127  INFO 19676 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 10 class path changes (0 additions, 4 deletions, 6 modifications)
+2023-11-22 07:11:53.162  INFO 19676 --- [Thread-26] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-22 07:11:53.169  INFO 19676 --- [Thread-26] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-22 07:11:53.170  INFO 19676 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2023-11-22 07:11:53.176  INFO 19676 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2023-11-22 07:11:53.345  INFO 19676 --- [restartedMain] com.fdapractice.menu.MenuApplication     : Starting MenuApplication using Java 17.0.7 on LIN20002650 with PID 19676 (C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Menu\target\classes started by pt2 in C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Menu)
+2023-11-22 07:11:53.346  INFO 19676 --- [restartedMain] com.fdapractice.menu.MenuApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-11-22 07:11:53.715  INFO 19676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-22 07:11:53.738  INFO 19676 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2023-11-22 07:11:53.903  INFO 19676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8002 (http)
+2023-11-22 07:11:53.905  INFO 19676 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-22 07:11:53.906  INFO 19676 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-22 07:11:53.954  INFO 19676 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-11-22 07:11:53.955  INFO 19676 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 606 ms
+2023-11-22 07:11:53.998  INFO 19676 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-22 07:11:54.007  INFO 19676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2023-11-22 07:11:54.293  INFO 19676 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2023-11-22 07:11:54.294  INFO 19676 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-22 07:11:54.363  INFO 19676 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-22 07:11:54.364  INFO 19676 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-22 07:11:54.507  WARN 19676 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-22 07:11:54.644  INFO 19676 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-22 07:11:54.674  INFO 19676 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8002 (http) with context path ''
+2023-11-22 07:11:54.681  INFO 19676 --- [restartedMain] com.fdapractice.menu.MenuApplication     : Started MenuApplication in 1.389 seconds (JVM running for 34960.381)
+2023-11-22 07:11:54.683  INFO 19676 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

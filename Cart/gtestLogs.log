@@ -1,0 +1,474 @@
+2023-11-21 12:33:19.308  INFO 19096 --- [restartedMain] c.f.cart.FdapracticeApplication          : Starting FdapracticeApplication using Java 17.0.7 on LIN20002650 with PID 19096 (C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes started by pt2 in C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart)
+2023-11-21 12:33:19.316  INFO 19096 --- [restartedMain] c.f.cart.FdapracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-21 12:33:19.890  INFO 19096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-21 12:33:19.900  INFO 19096 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-21 12:33:24.711  INFO 19096 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-21 12:33:25.038  INFO 19096 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 265 ms. Found 1 JPA repository interfaces.
+2023-11-21 12:33:28.332  INFO 19096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-11-21 12:33:28.377  INFO 19096 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-21 12:33:28.379  INFO 19096 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-21 12:33:28.840  INFO 19096 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-21 12:33:28.841  INFO 19096 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8936 ms
+2023-11-21 12:33:29.462  INFO 19096 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-21 12:33:29.664  INFO 19096 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-11-21 12:33:30.253  INFO 19096 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-21 12:33:30.665  INFO 19096 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-21 12:33:31.461  INFO 19096 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-21 12:33:31.611  INFO 19096 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-21 12:33:33.389  WARN 19096 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Warning Code: 0, SQLState: 00000
+2023-11-21 12:33:33.390  WARN 19096 --- [restartedMain] o.h.engine.jdbc.spi.SqlExceptionHelper   : table "cart" does not exist, skipping
+2023-11-21 12:33:33.551  INFO 19096 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-21 12:33:33.585  INFO 19096 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 12:33:34.609  WARN 19096 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-21 12:33:35.378  INFO 19096 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-21 12:33:35.505  INFO 19096 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-11-21 12:33:35.531  INFO 19096 --- [restartedMain] c.f.cart.FdapracticeApplication          : Started FdapracticeApplication in 19.002 seconds (JVM running for 21.544)
+2023-11-21 13:12:44.351  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Starting FdapracticeApplication using Java 17.0.7 on LIN20002650 with PID 17416 (C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes started by pt2 in C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart)
+2023-11-21 13:12:44.366  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-21 13:12:44.538  INFO 17416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-21 13:12:44.539  INFO 17416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-21 13:12:47.844  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-21 13:12:48.098  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 190 ms. Found 1 JPA repository interfaces.
+2023-11-21 13:12:51.467  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-11-21 13:12:51.513  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-21 13:12:51.515  INFO 17416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-21 13:12:52.019  INFO 17416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-21 13:12:52.022  INFO 17416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7481 ms
+2023-11-21 13:12:52.892  INFO 17416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-21 13:12:53.162  INFO 17416 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-11-21 13:12:53.793  INFO 17416 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-11-21 13:12:54.206  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-11-21 13:12:55.178  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-11-21 13:12:55.294  INFO 17416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-21 13:12:58.455  INFO 17416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-21 13:12:58.496  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 13:12:59.952  WARN 17416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-21 13:13:01.455  INFO 17416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-21 13:13:01.672  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-11-21 13:13:01.801  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Started FdapracticeApplication in 20.073 seconds (JVM running for 22.919)
+2023-11-21 13:31:57.350  INFO 17416 --- [http-nio-8001-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-21 13:31:57.363  INFO 17416 --- [http-nio-8001-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-21 13:31:57.416  INFO 17416 --- [http-nio-8001-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 51 ms
+2023-11-21 15:10:34.779  INFO 17416 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-21 15:10:35.163  INFO 17416 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-21 15:10:35.219  INFO 17416 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-21 15:10:35.407  INFO 17416 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:10:35.468  INFO 17416 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-11-21 15:10:35.560  INFO 17416 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-11-21 15:10:36.039  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Starting FdapracticeApplication using Java 17.0.7 on LIN20002650 with PID 17416 (C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes started by pt2 in C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart)
+2023-11-21 15:10:36.041  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-21 15:10:36.968  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-21 15:10:37.020  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interfaces.
+2023-11-21 15:10:37.441  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-11-21 15:10:37.444  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-21 15:10:37.445  INFO 17416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-21 15:10:37.561  INFO 17416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-11-21 15:10:37.562  INFO 17416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1503 ms
+2023-11-21 15:10:37.693  INFO 17416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-21 15:10:37.719  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-11-21 15:10:38.084  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-11-21 15:10:38.086  INFO 17416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-21 15:10:38.398  INFO 17416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-21 15:10:38.400  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:10:38.954  WARN 17416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-21 15:10:39.565  INFO 17416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-21 15:10:39.664  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-11-21 15:10:39.677  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Started FdapracticeApplication in 3.748 seconds (JVM running for 7080.311)
+2023-11-21 15:10:39.694  INFO 17416 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-21 15:10:47.943  INFO 17416 --- [http-nio-8001-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-21 15:10:47.945  INFO 17416 --- [http-nio-8001-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-21 15:10:47.951  INFO 17416 --- [http-nio-8001-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-11-21 15:19:06.513  INFO 17416 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 10 class path changes (0 additions, 10 deletions, 0 modifications)
+2023-11-21 15:19:06.756  INFO 17416 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-21 15:19:06.757  INFO 17416 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-21 15:19:06.775  INFO 17416 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:19:06.777  INFO 17416 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-11-21 15:19:06.787  INFO 17416 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-11-21 15:19:10.897  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Starting FdapracticeApplication using Java 17.0.7 on LIN20002650 with PID 17416 (C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes started by pt2 in C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart)
+2023-11-21 15:19:10.899  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-21 15:19:11.521  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-21 15:19:11.559  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2023-11-21 15:19:11.840  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-11-21 15:19:11.843  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-21 15:19:11.843  INFO 17416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-21 15:19:11.931  INFO 17416 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-11-21 15:19:11.932  INFO 17416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1026 ms
+2023-11-21 15:19:12.044  INFO 17416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-21 15:19:12.061  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-11-21 15:19:12.430  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-11-21 15:19:12.431  INFO 17416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-21 15:19:12.548  INFO 17416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-21 15:19:12.549  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:19:12.791  WARN 17416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-21 15:19:13.093  INFO 17416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-21 15:19:13.175  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-11-21 15:19:13.182  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Started FdapracticeApplication in 2.368 seconds (JVM running for 7593.814)
+2023-11-21 15:19:13.185  INFO 17416 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-21 15:19:22.398  INFO 17416 --- [http-nio-8001-exec-2] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-21 15:19:22.401  INFO 17416 --- [http-nio-8001-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-21 15:19:22.406  INFO 17416 --- [http-nio-8001-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-11-21 15:24:17.676  INFO 17416 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-21 15:24:18.939  INFO 17416 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-21 15:24:18.954  INFO 17416 --- [Thread-11] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-21 15:24:18.995  INFO 17416 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:24:18.998  INFO 17416 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-11-21 15:24:19.127  INFO 17416 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-11-21 15:24:20.147  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Starting FdapracticeApplication using Java 17.0.7 on LIN20002650 with PID 17416 (C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes started by pt2 in C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart)
+2023-11-21 15:24:20.148  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-21 15:24:21.800  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-21 15:24:21.880  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2023-11-21 15:24:22.269  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-11-21 15:24:22.272  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-21 15:24:22.273  INFO 17416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-21 15:24:22.400  INFO 17416 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-11-21 15:24:22.402  INFO 17416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2240 ms
+2023-11-21 15:24:22.526  INFO 17416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-21 15:24:22.573  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-11-21 15:24:22.992  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-11-21 15:24:22.994  INFO 17416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-21 15:24:23.149  INFO 17416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-21 15:24:23.150  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:24:23.453  WARN 17416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-21 15:24:23.917  INFO 17416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-21 15:24:23.983  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-11-21 15:24:23.995  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Started FdapracticeApplication in 4.557 seconds (JVM running for 7904.625)
+2023-11-21 15:24:24.000  INFO 17416 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-21 15:26:08.632  INFO 17416 --- [http-nio-8001-exec-4] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-21 15:26:08.634  INFO 17416 --- [http-nio-8001-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-21 15:26:08.642  INFO 17416 --- [http-nio-8001-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-11-21 15:44:57.987  INFO 17416 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-21 15:44:58.200  INFO 17416 --- [Thread-18] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-21 15:44:58.208  INFO 17416 --- [Thread-18] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-21 15:44:58.241  INFO 17416 --- [Thread-18] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:44:58.247  INFO 17416 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-11-21 15:44:58.656  INFO 17416 --- [Thread-18] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-11-21 15:44:59.132  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Starting FdapracticeApplication using Java 17.0.7 on LIN20002650 with PID 17416 (C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes started by pt2 in C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart)
+2023-11-21 15:44:59.137  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-21 15:45:00.898  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-21 15:45:01.007  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interfaces.
+2023-11-21 15:45:01.614  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-11-21 15:45:01.620  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-21 15:45:01.624  INFO 17416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-21 15:45:01.879  INFO 17416 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-11-21 15:45:01.883  INFO 17416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2640 ms
+2023-11-21 15:45:02.059  INFO 17416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-21 15:45:02.115  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-11-21 15:45:02.842  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-11-21 15:45:02.844  INFO 17416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-21 15:45:03.016  INFO 17416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-21 15:45:03.017  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:45:03.043  WARN 17416 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartController' defined in file [C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes\com\fdapractice\cart\controller\CartController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.fdapractice.cart.controller.CartController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Cannot return a void result
+	Syntax error on token "}", delete this token
+
+2023-11-21 15:45:03.045  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:45:03.047  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-11-21 15:45:03.405  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-11-21 15:45:03.406  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-21 15:45:03.417  INFO 17416 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-11-21 15:45:03.453 ERROR 17416 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartController' defined in file [C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes\com\fdapractice\cart\controller\CartController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.fdapractice.cart.controller.CartController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Cannot return a void result
+	Syntax error on token "}", delete this token
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921) ~[spring-context-5.3.30.jar:5.3.30]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.30.jar:5.3.30]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289) ~[spring-boot-2.7.17.jar:2.7.17]
+	at com.fdapractice.cart.FdapracticeApplication.main(FdapracticeApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-2.7.17.jar:2.7.17]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.fdapractice.cart.controller.CartController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Cannot return a void result
+	Syntax error on token "}", delete this token
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.30.jar:5.3.30]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Cannot return a void result
+	Syntax error on token "}", delete this token
+
+	at com.fdapractice.cart.controller.CartController.<init>(CartController.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.30.jar:5.3.30]
+	... 24 common frames omitted
+
+2023-11-21 15:45:59.660  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Starting FdapracticeApplication using Java 17.0.7 on LIN20002650 with PID 17416 (C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes started by pt2 in C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart)
+2023-11-21 15:45:59.662  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-21 15:46:01.314  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-21 15:46:01.536  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 220 ms. Found 1 JPA repository interfaces.
+2023-11-21 15:46:02.422  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-11-21 15:46:02.430  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-21 15:46:02.435  INFO 17416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-21 15:46:02.721  INFO 17416 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-11-21 15:46:02.726  INFO 17416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3051 ms
+2023-11-21 15:46:02.900  INFO 17416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-21 15:46:02.940  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2023-11-21 15:46:03.536  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2023-11-21 15:46:03.538  INFO 17416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-21 15:46:03.799  INFO 17416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-21 15:46:03.800  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:46:03.847  WARN 17416 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartController' defined in file [C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes\com\fdapractice\cart\controller\CartController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.fdapractice.cart.controller.CartController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "}", delete this token
+
+2023-11-21 15:46:03.849  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:46:03.852  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2023-11-21 15:46:04.213  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2023-11-21 15:46:04.217  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-21 15:46:04.236  INFO 17416 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-11-21 15:46:04.264 ERROR 17416 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartController' defined in file [C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes\com\fdapractice\cart\controller\CartController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.fdapractice.cart.controller.CartController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "}", delete this token
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921) ~[spring-context-5.3.30.jar:5.3.30]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.30.jar:5.3.30]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289) ~[spring-boot-2.7.17.jar:2.7.17]
+	at com.fdapractice.cart.FdapracticeApplication.main(FdapracticeApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-2.7.17.jar:2.7.17]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.fdapractice.cart.controller.CartController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "}", delete this token
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.30.jar:5.3.30]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "}", delete this token
+
+	at com.fdapractice.cart.controller.CartController.<init>(CartController.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.30.jar:5.3.30]
+	... 24 common frames omitted
+
+2023-11-21 15:46:16.607  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Starting FdapracticeApplication using Java 17.0.7 on LIN20002650 with PID 17416 (C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes started by pt2 in C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart)
+2023-11-21 15:46:16.622  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-21 15:46:19.032  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-21 15:46:19.416  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 379 ms. Found 1 JPA repository interfaces.
+2023-11-21 15:46:20.366  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-11-21 15:46:20.369  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-21 15:46:20.373  INFO 17416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-21 15:46:20.533  INFO 17416 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-11-21 15:46:20.534  INFO 17416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3890 ms
+2023-11-21 15:46:20.651  INFO 17416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-21 15:46:20.681  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2023-11-21 15:46:21.113  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2023-11-21 15:46:21.115  INFO 17416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-21 15:46:21.263  INFO 17416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-21 15:46:21.265  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:46:21.297  WARN 17416 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartController' defined in file [C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes\com\fdapractice\cart\controller\CartController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.fdapractice.cart.controller.CartController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "}", delete this token
+
+2023-11-21 15:46:21.298  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:46:21.299  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2023-11-21 15:46:21.661  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2023-11-21 15:46:21.664  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-21 15:46:21.715  INFO 17416 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-11-21 15:46:21.754 ERROR 17416 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cartController' defined in file [C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes\com\fdapractice\cart\controller\CartController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.fdapractice.cart.controller.CartController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "}", delete this token
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1334) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921) ~[spring-context-5.3.30.jar:5.3.30]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.30.jar:5.3.30]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300) ~[spring-boot-2.7.17.jar:2.7.17]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289) ~[spring-boot-2.7.17.jar:2.7.17]
+	at com.fdapractice.cart.FdapracticeApplication.main(FdapracticeApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-2.7.17.jar:2.7.17]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.fdapractice.cart.controller.CartController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "}", delete this token
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.3.30.jar:5.3.30]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1326) ~[spring-beans-5.3.30.jar:5.3.30]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "}", delete this token
+
+	at com.fdapractice.cart.controller.CartController.<init>(CartController.java:33) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.30.jar:5.3.30]
+	... 24 common frames omitted
+
+2023-11-21 15:46:29.947  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Starting FdapracticeApplication using Java 17.0.7 on LIN20002650 with PID 17416 (C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes started by pt2 in C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart)
+2023-11-21 15:46:29.951  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-21 15:46:31.730  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-21 15:46:31.877  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 144 ms. Found 1 JPA repository interfaces.
+2023-11-21 15:46:32.513  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-11-21 15:46:32.518  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-21 15:46:32.520  INFO 17416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-21 15:46:32.729  INFO 17416 --- [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-11-21 15:46:32.731  INFO 17416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2679 ms
+2023-11-21 15:46:32.890  INFO 17416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-21 15:46:32.919  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2023-11-21 15:46:33.507  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2023-11-21 15:46:33.510  INFO 17416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-21 15:46:33.719  INFO 17416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-21 15:46:33.722  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:46:34.245  WARN 17416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-21 15:46:34.754  INFO 17416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-21 15:46:34.815  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-11-21 15:46:34.826  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Started FdapracticeApplication in 5.249 seconds (JVM running for 9235.454)
+2023-11-21 15:46:34.831  INFO 17416 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-21 15:47:04.993  INFO 17416 --- [http-nio-8001-exec-4] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-21 15:47:04.995  INFO 17416 --- [http-nio-8001-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-21 15:47:04.999  INFO 17416 --- [http-nio-8001-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-11-21 15:48:36.958  INFO 17416 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-21 15:48:38.042  INFO 17416 --- [Thread-22] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-21 15:48:38.046  INFO 17416 --- [Thread-22] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-21 15:48:38.097  INFO 17416 --- [Thread-22] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:48:38.101  INFO 17416 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2023-11-21 15:48:38.627  INFO 17416 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2023-11-21 15:48:39.755  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Starting FdapracticeApplication using Java 17.0.7 on LIN20002650 with PID 17416 (C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes started by pt2 in C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart)
+2023-11-21 15:48:39.760  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-21 15:48:40.827  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-21 15:48:40.895  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2023-11-21 15:48:41.260  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-11-21 15:48:41.263  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-21 15:48:41.264  INFO 17416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-21 15:48:41.419  INFO 17416 --- [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-11-21 15:48:41.421  INFO 17416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1643 ms
+2023-11-21 15:48:41.596  INFO 17416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-21 15:48:41.623  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2023-11-21 15:48:42.148  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2023-11-21 15:48:42.149  INFO 17416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-21 15:48:42.331  INFO 17416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-21 15:48:42.333  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:48:42.902  WARN 17416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-21 15:48:43.325  INFO 17416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-21 15:48:43.423  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-11-21 15:48:43.436  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Started FdapracticeApplication in 4.024 seconds (JVM running for 9364.064)
+2023-11-21 15:48:43.442  INFO 17416 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-21 15:48:45.159  INFO 17416 --- [http-nio-8001-exec-4] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-21 15:48:45.160  INFO 17416 --- [http-nio-8001-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-21 15:48:45.163  INFO 17416 --- [http-nio-8001-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-11-21 15:49:10.608  INFO 17416 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-21 15:49:10.878  INFO 17416 --- [Thread-35] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-21 15:49:10.883  INFO 17416 --- [Thread-35] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-21 15:49:10.910  INFO 17416 --- [Thread-35] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:49:10.913  INFO 17416 --- [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2023-11-21 15:49:11.043  INFO 17416 --- [Thread-35] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2023-11-21 15:49:11.799  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Starting FdapracticeApplication using Java 17.0.7 on LIN20002650 with PID 17416 (C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes started by pt2 in C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart)
+2023-11-21 15:49:11.815  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-21 15:49:13.478  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-21 15:49:13.586  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 1 JPA repository interfaces.
+2023-11-21 15:49:13.968  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-11-21 15:49:13.980  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-21 15:49:13.981  INFO 17416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-21 15:49:14.146  INFO 17416 --- [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-11-21 15:49:14.147  INFO 17416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2313 ms
+2023-11-21 15:49:14.289  INFO 17416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-21 15:49:14.308  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2023-11-21 15:49:14.762  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2023-11-21 15:49:14.762  INFO 17416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-21 15:49:14.883  INFO 17416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-21 15:49:14.884  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:49:15.121  WARN 17416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-21 15:49:15.308  INFO 17416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-21 15:49:15.339  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-11-21 15:49:15.344  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Started FdapracticeApplication in 4.05 seconds (JVM running for 9395.972)
+2023-11-21 15:49:15.351  INFO 17416 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-21 15:49:19.169  INFO 17416 --- [http-nio-8001-exec-3] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-21 15:49:19.169  INFO 17416 --- [http-nio-8001-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-21 15:49:19.185  INFO 17416 --- [http-nio-8001-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2023-11-21 15:52:54.533  INFO 17416 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-11-21 15:52:54.724  INFO 17416 --- [Thread-39] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-11-21 15:52:54.725  INFO 17416 --- [Thread-39] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-21 15:52:54.748  INFO 17416 --- [Thread-39] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:52:54.751  INFO 17416 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2023-11-21 15:52:54.836  INFO 17416 --- [Thread-39] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2023-11-21 15:52:55.244  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Starting FdapracticeApplication using Java 17.0.7 on LIN20002650 with PID 17416 (C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart\target\classes started by pt2 in C:\Users\PT2\Documents\workspace-spring-tool-suite-4-4.18.1.RELEASE\FDAPRACTICE\Cart)
+2023-11-21 15:52:55.245  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : No active profile set, falling back to 1 default profile: "default"
+2023-11-21 15:52:56.501  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-21 15:52:56.600  INFO 17416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interfaces.
+2023-11-21 15:52:57.014  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8001 (http)
+2023-11-21 15:52:57.018  INFO 17416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-11-21 15:52:57.018  INFO 17416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.82]
+2023-11-21 15:52:57.154  INFO 17416 --- [restartedMain] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-11-21 15:52:57.155  INFO 17416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1891 ms
+2023-11-21 15:52:57.327  INFO 17416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-21 15:52:57.381  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2023-11-21 15:52:57.935  INFO 17416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2023-11-21 15:52:57.936  INFO 17416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-11-21 15:52:58.097  INFO 17416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-21 15:52:58.099  INFO 17416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-21 15:52:58.431  WARN 17416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-21 15:52:58.827  INFO 17416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-11-21 15:52:58.881  INFO 17416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8001 (http) with context path ''
+2023-11-21 15:52:58.890  INFO 17416 --- [restartedMain] c.f.cart.FdapracticeApplication          : Started FdapracticeApplication in 3.822 seconds (JVM running for 9619.518)
+2023-11-21 15:52:58.896  INFO 17416 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-11-21 15:53:20.819  INFO 17416 --- [http-nio-8001-exec-4] o.a.c.c.C.[Tomcat-4].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-21 15:53:20.819  INFO 17416 --- [http-nio-8001-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-11-21 15:53:20.833  INFO 17416 --- [http-nio-8001-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
